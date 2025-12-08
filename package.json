@@ -1,6 +1,6 @@
 {
   "name": "@bylickilabs/unified-security-framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unified Security Framework – AI-driven client-side security, protection, DDoS mitigation, monitoring and defensive hardening.",
   "main": "ai.js",
   "files": [

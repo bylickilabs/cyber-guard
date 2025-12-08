@@ -1,5 +1,5 @@
 # 🛡 Unified Security Framework  
-**Version 1.0.0 — Multi-Layer Client-Side Security Protection Suite**
+**Version 1.0.2 — Multi-Layer Client-Side Security Protection Suite**
 
 - The **Unified Security Framework** delivers a modular, multi-layer security system for modern web applications.  
 - It bundles client-side anomaly detection, DDoS-Guard, DOM protection, input shielding, service-worker hardening 

@@ -1,6 +1,6 @@
 /*!
  * BYLICKILABS – AI Monitoring Framework (ai.js)
- * Version: 1.0.0
+ * Version: 1.0.2
  *
  * Features:
  *  - Error & Promise Monitoring
@@ -8,7 +8,7 @@
  *  - Resource Load Errors
  *  - Performance & FPS Tracking
  *  - Offline Event Queue Marking
- *  - AI Scoring 1.0 (Errors, Network, Resources, FPS, Performance)
+ *  - AI Scoring 1.0.2 (Errors, Network, Resources, FPS, Performance)
  *  - Local Log Storage (Ring-Buffer)
  *  - Incident Report Export
  *  - Screenshot Export (optional, via html2canvas wenn vorhanden)
@@ -22,7 +22,7 @@
 
     const CONFIG = {
         appName: "Ai Monitoring Framework",
-        appVersion: "1.0.0",
+        appVersion: "1.0.2",
         environment: "production",
         storageKey: "BYLICKILABS_AI_LOGS",
         maxLogEntries: 800,

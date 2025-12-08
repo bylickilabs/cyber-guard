@@ -1,7 +1,7 @@
 // ©Thorsten Bylicki | ©BYLICKILABS – Unified Security Framework (ddos-guard.js)
 // Website Protection
 // Client-Side Throttling, Bot Detection & Headless Fingerprinting 
-// v1.0
+// v1.0.2
 
 (function () {
     "use strict";

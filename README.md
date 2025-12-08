@@ -59,6 +59,8 @@ npm i @bylickilabs/unified-security-layer
 
 # 🌐 CDN Integration
 
+Insert into `<head>`:
+
 ## jsDelivr
 ```
 <script src="https://cdn.jsdelivr.net/npm/unified-security-framework/ai.js" defer></script>
@@ -82,7 +84,6 @@ npm i @bylickilabs/unified-security-layer
 
 ```
 <link rel="stylesheet" href="https://unpkg.com/unified-security-framework/protect.css">
-```
 ```
 
 <br>

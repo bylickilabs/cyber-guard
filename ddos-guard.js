@@ -1,7 +1,7 @@
-// ©Thorsten Bylicki | ©BYLICKILABS – Unified Security Framework (ddos-guard.js)
+// ©Thorsten Bylicki | ©BYLICKILABS – CyberGuard WebLayer (ddos-guard.js)
 // Website Protection
 // Client-Side Throttling, Bot Detection & Headless Fingerprinting 
-// v1.0.2
+// v1.0.0
 
 (function () {
     "use strict";
@@ -92,7 +92,7 @@
 
         try {
             if (CONFIG.logging.mode === "console") {
-                console.warn("[Unified Security Layer DDoS Guard]", entry);
+                console.warn("[CyberGuard WebLayer DDoS Guard]", entry);
             } else if (CONFIG.logging.mode === "beacon" && typeof navigator.sendBeacon === "function" && CONFIG.logging.beaconUrl) {
                 navigator.sendBeacon(CONFIG.logging.beaconUrl, JSON.stringify(entry));
             } else if (CONFIG.logging.mode === "local") {
@@ -210,10 +210,10 @@
 
 
     function showBlockScreen(message) {
-        const msgDe = "Die Unified Security Layer Protection hat deinen Zugriff " +
+        const msgDe = "Die CyberGuard WebLayer Protection hat deinen Zugriff " +
             "vorübergehend eingeschränkt. Bitte warte einen Moment und lade die Seite neu. " +
             "Bei fortbestehenden Problemen wende dich an den Admin\n\n";
-        const msgEn = "The Unified Security Layer protection has temporarily limited your access. " +
+        const msgEn = "The CyberGuard WebLayer protection has temporarily limited your access. " +
             "Please wait a moment and reload the page. If the issue persists, please contact Admin\n\n";
 
         const overlay = document.createElement("div");
@@ -236,7 +236,7 @@
 
         overlay.innerHTML = `
 		<h1 style="font-size:1.6rem; margin-bottom:0.75rem;">
-			Unified Security Layer – Client-Side Protection
+			CyberGuard WebLayer – Client-Side Protection
 		</h1><br><br>
 
 		<p style="max-width:36rem; font-size:0.95rem; opacity:0.9; line-height:1.5;">
@@ -244,7 +244,7 @@
 		</p>
 
 		<p style="margin-top:1.5rem; font-size:0.75rem; opacity:0.7;">
-			©Thorsten Bylicki | ©BYLICKILABS – Unified Security Layer
+			©Thorsten Bylicki | ©BYLICKILABS – CyberGuard WebLayer
 		</p>
 
 <p style="margin-top:1.2rem;">
@@ -381,7 +381,7 @@
 
     } catch (e) {
         try {
-            console.error("[Unified Security Layer] Runtime error", e);
+            console.error("[CyberGuard WebLayer] Runtime error", e);
         } catch (ignore) {
         }
     }

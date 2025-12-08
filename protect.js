@@ -1,7 +1,7 @@
-/* =============================================================
-   ©Thorsten Bylicki | ©BYLICKILABS – Unified Security Framework  
-   Version: 1.0.2
-   ============================================================= */
+/* =======================================================
+   ©Thorsten Bylicki | ©BYLICKILABS – CyberGuard WebLayer 
+   Version: 1.0.0
+   ======================================================= */
 
 (() => {
     'use strict';
@@ -62,7 +62,7 @@
                     Die Oberfläche wurde aus Sicherheitsgründen gesperrt.
                 </div>
                 <div style="margin-top:1.2rem; opacity:0.5; font-size:0.8rem;">
-                    ©BYLICKILABS – Unified Security Layer
+                    ©BYLICKILABS – CyberGuard WebLayer
                 </div>
             </div>
         `;
@@ -112,7 +112,8 @@
             </button>
 
             <p style="margin-top:1rem; font-size:0.75rem; opacity:0.4;">
-                ©Thorsten Bylicki | ©BYLICKILABS – Unified Security Layer
+                ©Thorsten Bylicki | ©BYLICKILABS – CyberGuard WebLayer 
+
             </p>
         `;
 

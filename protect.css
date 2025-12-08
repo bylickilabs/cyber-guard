@@ -1,7 +1,7 @@
-/* =====================================================================
-   ©Thorsten Bylicki | ©BYLICKILABS – Unified Security Framework Styles
-   Version: 1.0.2
-   ===================================================================== */
+/* ========================================================
+   ©Thorsten Bylicki | ©BYLICKILABS – CyberGuard WebLayer
+   Version: 1.0.0
+   ======================================================== */
 
 .gradientPulse {
   background: linear-gradient(120deg, var(--primary), #ffe0ef, var(--primary-2));
@@ -22,7 +22,7 @@
 }
 
 .wm-overlay::before {
-  /*content: "⚡ CYBER DEFENSE ACTIVE - Powered by BYLICKILABS ⚡";*/
+  /*content: "⚡ WebLayer ACTIVE - Powered by BYLICKILABS ⚡";*/
   position: fixed;
   inset: 0;
   pointer-events: none;

@@ -1,6 +1,6 @@
 /*!
- * BYLICKILABS – AI Monitoring Framework (ai.js)
- * Version: 1.0.2
+ * BYLICKILABS – AI CyberGuard WebLayer (ai.js)
+ * Version: 1.0.0
  *
  * Features:
  *  - Error & Promise Monitoring
@@ -21,8 +21,8 @@
     if (!window || !document) return;
 
     const CONFIG = {
-        appName: "Ai Monitoring Framework",
-        appVersion: "1.0.2",
+        appName: "AI CyberGuard WebLayer",
+        appVersion: "1.0.0",
         environment: "production",
         storageKey: "BYLICKILABS_AI_LOGS",
         maxLogEntries: 800,

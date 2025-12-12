@@ -1,5 +1,5 @@
 # 🛡 CyberGuard
-**Version 1.0.1 — Multi-Layer Client-Side Security Protection Suite**
+**Version 1.0.3 — Multi-Layer Client-Side Security Protection Suite**
 
 |<img width="1280" height="640" alt="cyberguard" src="https://github.com/user-attachments/assets/8a88eac9-b7eb-40d7-b7a1-bf4f85b0a288" />  |
 |---|
@@ -39,9 +39,9 @@
 - Tamper detection  
 - UI shielding  
 
-## ➕ Additional Features in v1.0.1 (Upgrade from v1.0.0)
+## ➕ Additional Features in v1.0.3 (Upgrade from v1.0.0)
 
-Version **v1.0.1** extends the existing feature set with structured telemetry, deeper contextual insight, and professional reporting capabilities. All features from v1.0.0 remain fully intact.
+Version **v1.0.3** extends the existing feature set with structured telemetry, deeper contextual insight, and professional reporting capabilities. All features from v1.0.0 remain fully intact.
 
 ---
 

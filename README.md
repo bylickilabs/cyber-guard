@@ -19,7 +19,7 @@
 
 ## 🚀 Included Security Modules
 
-### ✔ AI Monitoring Layer (`ai.js`)
+### ✔ AI Monitoring Layer (`ai.min.js`)
 - Performance tracking  
 - Error & anomaly logging  
 - Network monitoring  
@@ -27,13 +27,13 @@
 - Behavior scoring  
 - Client-side analytics
 
-### ✔ DDoS-Guard (`ddos-guard.js`)
+### ✔ DDoS-Guard (`ddos-guard.min.js`)
 - Event‑flood detection  
 - Request throttling  
 - Basic bot traffic mitigation  
 - Client-side shield activation
 
-### ✔ DOM Protection (`protect.js` + `protect.css`)
+### ✔ DOM Protection (`protect.min.js` + `protect.min.css`)
 - Blackout screen  
 - Anti-manipulation guard  
 - Tamper detection  
